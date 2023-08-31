@@ -1,0 +1,117 @@
+.about__title {
+  margin-top: 155px;
+  text-align: center;
+  margin-bottom: 21px;
+  color: #211f54;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.984px; /* 120.8% */
+}
+.about__text {
+  margin-bottom: 58px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 648px;
+  color: #6e7191;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px; /* 142.886% */
+  text-align: center;
+}
+.about__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.about__img {
+  /* width: 100%; */
+}
+.about__card__title {
+  color: #211f54;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36.008px; /* 128.6% */
+}
+.about__card__text {
+  max-width: 412px;
+  color: #6e7191;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px; /* 142.886% */
+}
+.about__btns {
+  margin-top: 52px;
+  margin-bottom: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+}
+.about__btn {
+  padding: 24px 35px;
+  border-radius: 14px;
+  background: #0075ff;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #0075ff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+  transition: 0.2s;
+}
+.about__btn:hover {
+  background: transparent;
+  border-color: #0075ff;
+  color: #0075ff;
+}
+.about__btn__white {
+  padding: 24px 35px ;
+  border-radius: 14px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+  color: #211f54;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.998px; /* 111.1% */
+  transition: .6s;
+}
+.about__btn__white:hover {
+  border-color: #000;
+  color: #000;
+}
+@media (max-width: 1050px) {
+  .about__cards {
+    /* flex-direction: column; */
+  }
+  .about__img {
+  width: 100%;
+}
+}
+@media (max-width: 1050px) {
+  .about__cards {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .about__btns {
+    flex-direction: column;
+  }
+}
